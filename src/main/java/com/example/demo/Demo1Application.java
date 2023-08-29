@@ -12,7 +12,7 @@ public class Demo1Application {
     @GetMapping("/demo")
     public  String demo()
     {
-        return "Demo server called test";
+        return "Demo server called";
     }
     public static void main(String[] args) {
         SpringApplication.run(Demo1Application.class, args);
